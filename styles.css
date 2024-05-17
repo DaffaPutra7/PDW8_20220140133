@@ -1,0 +1,61 @@
+/* CSS Kustom */
+
+
+/* Navbar */
+
+.navbar-brand img {
+    max-height: 50px;
+    width: auto;
+}
+
+
+/* Gaya Section */
+
+.section {
+    padding: 50px 0;
+}
+
+
+/* Gaya Heading */
+
+.section-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+
+/* Gaya kustom untuk gambar kartu */
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+
+/* Efek bayangan untuk kartu */
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Nonaktifkan resize pada textarea */
+
+.no-resize {
+    resize: none;
+}
+
+
+/* Gaya untuk pesan konfirmasi */
+
+#confirmationMessage .alert {
+    margin-top: 15px;
+    font-size: 16px;
+    text-align: center;
+}

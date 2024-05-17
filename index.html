@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Judul -->
+    <title>GameShop</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="assets/bag-fill.svg">
+    <!-- CSS Kustom -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <!-- Brand navbar dengan ikon keranjang belanja -->
+            <a class="navbar-brand" href="#">
+                <img src="assets/controller.svg" alt="Ini adalah gambar Controller">
+            </a>
+            <!-- Toggler navbar untuk mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Item menu navbar -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <!-- Dropdown dengan efek akordeon -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            GameShop
+                        </a>
+                        <!-- Item menu dropdown -->
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#section1">Products</a></li>
+                            <li><a class="dropdown-item" href="#section2">About Us</a></li>
+                            <li><a class="dropdown-item" href="#section3">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Bagian Produk -->
+    <section id="section1" class="section bg-light">
+        <div class="container">
+            <div class="section-heading text-center mb-5">
+                <h2>Our Products</h2>
+            </div>
+            <div class="row">
+                <!-- Kartu 1 -->
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <img src="assets/cropped-1920-1200-1334860.jpeg" class="card-img-top img-fluid" alt="Ini adalah gambar game Dead By Daylight">
+                        <div class="card-body">
+                            <h5 class="card-title">Horor</h5>
+                            <p class="card-text">Produk ini menjual berbagai macam game yang memiliki genre Horor.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Kartu 2 -->
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <img src="assets/cropped-1920-1200-1151249.jpg" class="card-img-top img-fluid" alt="Ini adalah gambar game Elden Ring">
+                        <div class="card-body">
+                            <h5 class="card-title">RPG</h5>
+                            <p class="card-text">Produk ini menjual berbagai macam game yang memiliki genre RPG (Role Playing Game).</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Kartu 3 -->
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <img src="assets/cropped-1920-1200-386016.png" class="card-img-top img-fluid" alt="Ini adalah gambar game Watch Dog">
+                        <div class="card-body">
+                            <h5 class="card-title">Open World</h5>
+                            <p class="card-text">Produk ini menjual berbagai macam game yang memiliki genre Open World.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian Tentang Kami -->
+    <section id="section2" class="section bg-light">
+        <div class="container">
+            <div class="section-heading text-center mb-5">
+                <h2>About Us</h2>
+            </div>
+            <div class="row">
+                <!-- Kartu Siapa Kami -->
+                <div class="col-lg-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">Who We Are</h3>
+                            <p class="card-text">We are GameShop, GameShop merupakan sebuah web yang berfokus pada penjualan game secara online.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Kartu Misi Kami -->
+                <div class="col-lg-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">Our Mission</h3>
+                            <p class="card-text">Misi dari GameShop adalah menjual berbagai produk game dengan beragam genre seperti genre Horor, RPG dan Open World kepada semua gamer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian Hubungi Kami -->
+    <section id="section3" class="section bg-light">
+        <div class="container">
+            <div class="section-heading text-center mb-5">
+                <h2>Contact Us</h2>
+            </div>
+            <!-- Form Kontak -->
+            <form id="contactForm" class="needs-validation" novalidate>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" required>
+                        <div class="invalid-feedback">
+                            Please enter your name.
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                        <div class="invalid-feedback">
+                            Please enter a valid email address.
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control no-resize" id="message" rows="4" required></textarea>
+                    <div class="invalid-feedback">
+                        Please enter your message.
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">How did you hear about us?</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="source" id="source1" value="Social Media" required>
+                        <label class="form-check-label" for="source1">
+                            Social Media
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="source" id="source2" value="Friend" required>
+                        <label class="form-check-label" for="source2">
+                            Friend
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="source" id="source3" value="Other" required>
+                        <label class="form-check-label" for="source3">
+                            Other
+                        </label>
+                    </div>
+                    <div class="invalid-feedback">
+                        Please select an option.
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Interested in:</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="interest1" value="Horor">
+                        <label class="form-check-label" for="interest1">
+                            Horor
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="interest2" value="RPG">
+                        <label class="form-check-label" for="interest2">
+                            RPG
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="interest3" value="Open World">
+                        <label class="form-check-label" for="interest3">
+                            Open World
+                        </label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="button" class="btn btn-secondary" onclick="resetForm()">Reset</button>
+                <div id="confirmationMessage" class="mt-3"></div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JS Kustom -->
+    <script src="script.js"></script>
+</body>
+
+</html>
