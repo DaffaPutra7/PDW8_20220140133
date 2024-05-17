@@ -6,6 +6,6 @@
 
 ###
 
-"C:\Users\ASUS\Pictures\Screenshots\Screenshot 2024-05-17 222830.png"
+![Screenshot 2024-05-17 222830](https://github.com/DaffaPutra7/PDW8_20220140133/assets/127067060/096f05e3-743b-47fc-a07a-bedf91777a62)
 
 ###
