@@ -6,8 +6,6 @@
 
 ###
 
-<div align="center">
-  <img height="200" src=""C:\Users\ASUS\Pictures\Screenshots\Screenshot 2024-05-17 222830.png""  />
-</div>
+![Uploading Screenshot 2024-05-17 222830.png…]()
 
 ###
